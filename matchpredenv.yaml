@@ -1,4 +1,4 @@
-name: 'group22env'
+name: 'matchpredenv'
 channels:
   - conda-forge
   - defaults
@@ -9,10 +9,7 @@ dependencies:
   - vega_datasets=0.9.0
   - altair_data_server
   - matplotlib
+  - bs4
   - pip
   - pip:
-    - dash==1.18.1
-    - dash-leaflet
-    - dash-extensions
-    - dash_bootstrap_components
-    - plotly==4.14.3
+    - lxml
